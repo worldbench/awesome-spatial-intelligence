@@ -1,4 +1,4 @@
-## <p align=center>Forging Spatial Intelligence: A Survey on Multi-Modal Pre-Training for Autonomous Systems</p>
+## <p align=center>Forging Spatial Intelligence:<br> A Survey on Multi-Modal Pre-Training for Autonomous Systems</p>
 <div align=center>
 
 </div>
