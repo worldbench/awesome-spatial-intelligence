@@ -70,30 +70,30 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Dataset | Venue | Sensor | Task | Download |
 | :-: | :-: | :-: | :-: | :-: |
-| `KITTI` | [CVPR'12](https://www.cvlibs.net/publications/Geiger2012CVPR.pdf) | 2 Cam(RGB), 2 Cam(Gray), 1 LiDAR(64) | 3D Det, Stereo, Optical Flow, SLAM | [Link](https://www.cvlibs.net/datasets/kitti/index.php) |
-| `Argoverse` | [CVPR'19](https://arxiv.org/pdf/1911.02620) | 7 Cam(RGB), 2 LiDAR(32) | 3D Tracking, Forecasting, Map | [Link](https://www.argoverse.org/) |
-| `nuScenes` | [CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.pdf) | 6 Cam(RGB), 1 LiDAR(32), 5 Radar | 3D Det, Seg, Occ, Map | [Link](https://www.nuscenes.org/nuscenes#download) |
-| `Waymo` | [CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf) | 5 Cam(RGB), 5 LiDAR | Perception (Det, Seg, Track), Motion | [Link](https://waymo.com/open/licensing/?continue=%2Fopen%2Fdownload%2F) |
-| `Lyft L5` | [CoRL'20](https://arxiv.org/pdf/2006.14480) | 7 Cam(RGB), 3 LiDAR, 5 Radar | 3D Det, Motion Forecasting/Planning | [Link](https://self-driving.lyft.com/level5/data) |
-| `ONCE` | [NeurIPS'21](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/67c6a1e7ce56d3d6fa748ab6d9af3fd7-Paper-round1.pdf) | 7 Cam(RGB), 1 LiDAR(40) | 3D Det (Self-supervised/Semi-supervised) | [Link](https://once-for-auto-driving.github.io/download.html) |
-| `PandaSet` | [ITSC'21](https://ieeexplore.ieee.org/abstract/document/9565009) | 6 Cam(RGB), 2 LiDAR | 3D Det, LiDAR Seg | [Link](https://scale.com/open-av-datasets/pandaset) |
+| `KITTI` | [CVPR'12](https://www.cvlibs.net/publications/Geiger2012CVPR.pdf) | 2 Cam(RGB), 2 Cam(Gray), 1 LiDAR(64) | 3D Det, Stereo, Optical Flow, SLAM | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.cvlibs.net/datasets/kitti/index.php) |
+| `Argoverse` | [CVPR'19](https://arxiv.org/pdf/1911.02620) | 7 Cam(RGB), 2 LiDAR(32) | 3D Tracking, Forecasting, Map | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.argoverse.org/) |
+| `nuScenes` | [CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.pdf) | 6 Cam(RGB), 1 LiDAR(32), 5 Radar | 3D Det, Seg, Occ, Map | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.nuscenes.org/nuscenes#download) |
+| `Waymo` | [CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf) | 5 Cam(RGB), 5 LiDAR | Perception (Det, Seg, Track), Motion | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://waymo.com/open/licensing/?continue=%2Fopen%2Fdownload%2F) |
+| `Lyft L5` | [CoRL'20](https://arxiv.org/pdf/2006.14480) | 7 Cam(RGB), 3 LiDAR, 5 Radar | 3D Det, Motion Forecasting/Planning | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://self-driving.lyft.com/level5/data) |
+| `ONCE` | [NeurIPS'21](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/67c6a1e7ce56d3d6fa748ab6d9af3fd7-Paper-round1.pdf) | 7 Cam(RGB), 1 LiDAR(40) | 3D Det (Self-supervised/Semi-supervised) | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://once-for-auto-driving.github.io/download.html) |
+| `PandaSet` | [ITSC'21](https://ieeexplore.ieee.org/abstract/document/9565009) | 6 Cam(RGB), 2 LiDAR | 3D Det, LiDAR Seg | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://scale.com/open-av-datasets/pandaset) |
 
 ### Drone-Based Datasets
 
 | Dataset | Venue | Sensor | Task | Download |
 | :-: | :-: | :-: | :-: | :-: |
-| `M3ED` | CVPRW'23 | Cam (RGB/Gray), LiDAR, Event | 2D/3D Seg, Depth, Optical Flow | [Link](https://m3ed.io/download/) |
-| `CDrone` | GCPR'24 | Camera (Carla) | Monocular 3D Det | [Link](https://cvg.cit.tum.de/webshare/g/cdrone/data/) |
-| `VisDrone` | 2019 | Aerial Camera | Detection, Tracking | [Link](https://github.com/VisDrone/VisDrone-Dataset) |
-| `UAVid` | 2020 | Slanted Camera | Semantic Segmentation | [Link](https://www.google.com/search?q=https://uavid.nl/) |
-| `BioDrone` | 2024 | Bionic Camera | Tracking | [Link](https://www.google.com/search?q=https://github.com/yagleung/BioDrone) |
+| `M3ED` | CVPRW'23 | Cam (RGB/Gray), LiDAR, Event | 2D/3D Seg, Depth, Optical Flow | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://m3ed.io/download/) |
+| `CDrone` | GCPR'24 | Camera (Carla) | Monocular 3D Det | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://cvg.cit.tum.de/webshare/g/cdrone/data/) |
+| `VisDrone` | 2019 | Aerial Camera | Detection, Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/VisDrone/VisDrone-Dataset) |
+| `UAVid` | 2020 | Slanted Camera | Semantic Segmentation | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://uavid.nl) |
+| `BioDrone` | 2024 | Bionic Camera | Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](http://biodrone.aitestunion.com/) |
 
 ### Other Datasets
 
 | Dataset | Platform | Sensors | Website |
 |:-:|:-:|:-|:-:|
-| `RailSem19` | Railway | Camera | [Link](https://www.wilddash.cc/railsem19) |
-| `WaterScenes` | USV (Water) | Camera, Radar | [Link](https://github.com/WaterScenes/WaterScenes) |
+| `RailSem19` | Railway | Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.wilddash.cc/railsem19) |
+| `WaterScenes` | USV (Water) | Camera, Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/WaterScenes/WaterScenes) |
 | `Han et al.` | Legged Robot | Cam, LiDAR | - |
 
 -----
