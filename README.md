@@ -84,17 +84,17 @@ If you find this work helpful for your research, please kindly consider citing o
 | :-: | :-: | :-: | :-: | :-: |
 | `M3ED` | CVPRW'23 | Cam (RGB/Gray), LiDAR, Event | 2D/3D Seg, Depth, Optical Flow | [Link](https://m3ed.io/download/) |
 | `CDrone` | GCPR'24 | Camera (Carla) | Monocular 3D Det | [Link](https://cvg.cit.tum.de/webshare/g/cdrone/data/) |
-| `VisDrone` | 2019 | Aerial Camera | Detection, Tracking | [](https://github.com/VisDrone/VisDrone-Dataset) |
-| `UAVid` | 2020 | Slanted Camera | Semantic Segmentation | [](https://www.google.com/search?q=https://uavid.nl/) |
-| `BioDrone` | 2024 | Bionic Camera | Tracking | [](https://www.google.com/search?q=https://github.com/yagleung/BioDrone) |
+| `VisDrone` | 2019 | Aerial Camera | Detection, Tracking | [Link](https://github.com/VisDrone/VisDrone-Dataset) |
+| `UAVid` | 2020 | Slanted Camera | Semantic Segmentation | [Link](https://www.google.com/search?q=https://uavid.nl/) |
+| `BioDrone` | 2024 | Bionic Camera | Tracking | [Link](https://www.google.com/search?q=https://github.com/yagleung/BioDrone) |
 
 ### Other Datasets
 
 | Dataset | Platform | Sensors | Website |
 |:-:|:-:|:-|:-:|
-| `RailSem19` | Railway | Camera | [](https://www.wilddash.cc/railsem19) |
-| `WaterScenes` | USV (Water) | Camera, Radar | [](https://github.com/WaterScenes/WaterScenes) |
-| `Han et al.` | Legged Robot | Cam, LiDAR | [](https://www.google.com/search?q=) |
+| `RailSem19` | Railway | Camera | [Link](https://www.wilddash.cc/railsem19) |
+| `WaterScenes` | USV (Water) | Camera, Radar | [Link](https://github.com/WaterScenes/WaterScenes) |
+| `Han et al.` | Legged Robot | Cam, LiDAR | - |
 
 -----
 
@@ -106,8 +106,8 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Model | Paper | Venue | GitHub |
 |:-:|:-|:-:|:-:|
-| `PointContrast` | Unsupervised Pre-training for 3D Point Cloud Understanding | ECCV 2020 | [](https://github.com/facebookresearch/PointContrast) |
-| `DepthContrast` | Self-supervised Pretraining of 3D Features on any Point-Cloud | ICCV 2021 | [](https://github.com/facebookresearch/DepthContrast) |
+| `PointContrast` | [![arXiv](https://img.shields.io/badge/arXiv-2007.10985-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2007.10985)<br>Unsupervised Pre-training for 3D Point Cloud Understanding | ECCV 2020 | [![GitHub](https://img.shields.io/github/stars/facebookresearch/PointContrast)](https://github.com/facebookresearch/PointContrast) |
+| `DepthContrast` | [![arXiv](https://img.shields.io/badge/arXiv-2101.02691-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2101.02691)<br>Self-supervised Pretraining of 3D Features on any Point-Cloud | ICCV 2021 | [![GitHub](https://img.shields.io/github/stars/facebookresearch/DepthContrast)](https://github.com/facebookresearch/DepthContrast) |
 | `SegContrast` | 3D Point Cloud Feature Representation Learning through Self-supervised Segment Discrimination | RA-L 2021 | [](https://github.com/PRBonn/segcontrast) |
 | `ProposalContrast` | Unsupervised Pre-training for LiDAR-Based 3D Object Detection | ECCV 2022 | [](https://github.com/yinjunbo/ProposalContrast) |
 | `Occupancy-MAE` | Self-supervised Pre-training Large-scale LiDAR Point Clouds with Masked Occupancy Autoencoders | T-IV 2023 | [](https://github.com/chaytonmin/Occupancy-MAE) |
