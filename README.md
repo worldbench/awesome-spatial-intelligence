@@ -3,29 +3,27 @@
 # Forging Spatial Intelligence
 ### A Survey on Multi-Modal Pre-Training for Autonomous Systems
 
-<!-- [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) -->
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![arXiv](https://img.shields.io/badge/arXiv-25xx.xxxxx-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/25xx.xxxxx)
 ![Visitors](https://komarev.com/ghpvc/?username=worldbench&repo=awesome-spatial-intelligence&label=Visitors&color=yellow&style=social)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat)](https://github.com/worldbench/awesome-spatial-intelligence/pulls)
 
-<!-- | <img width="100%" src="docs/figures/teaser.png" alt="Taxonomy of Spatial Intelligence"> |
+| <img width="100%" src="docs/figures/teaser.png" alt="Taxonomy of Spatial Intelligence"> |
 |:-:|
-| *Figure 1: Taxonomy of Multi-Modal Representation Learning for Spatial Intelligence.* | -->
+| *Figure 1: Taxonomy of Multi-Modal Representation Learning for Spatial Intelligence.* |
 
 </div>
 
-This repository is the official resource collection for the survey **"Forging Spatial Intelligence: A Survey on Multi-Modal Pre-Training for Autonomous Systems"**.
+This repository serves as the official resource collection for the survey paper **"Forging Spatial Intelligence: A Survey on Multi-Modal Pre-Training for Autonomous Systems"**.
 
-We unify terminology, scope, and evaluations, and organize the field into three complementary paradigms based on information flow and abstraction level:
+In this work, we establish a systematic taxonomy for the field, unifying terminology, scope, and evaluation benchmarks. We organize existing methodologies into three complementary paradigms based on information flow and abstraction level:
 
-| | |
-|:-:|:-|
-| <img width="200px" src="figs/icon_single.png"> | **Single-Modality Pre-Training**<br>Focuses on extracting foundational features from individual sensors (Camera or LiDAR) via self-supervised learning (Contrastive Learning, Masked Modeling, Forecasting). This paradigm forms the bedrock of sensor-specific representation learning. |
-| <img width="200px" src="figs/icon_multi.png"> | **Multi-Modality Pre-Training**<br>Leverages cross-modal synergy to bridge the semantic-geometric gap. Includes **LiDAR-Centric** (distilling vision semantics into geometry), **Camera-Centric** (injecting geometric priors into vision), and **Unified** frameworks that learn modality-agnostic representations. |
-| <img width="200px" src="figs/icon_world.png"> | **Spatial Intelligence & World Models**<br>The frontier of the field. Encompasses **Generative World Models** (Video/Occupancy generation), **Embodied VLA** (Vision-Language-Action), and **Open-World** reasoning capabilities, transitioning from passive perception to active decision-making. |
-| | |
+* 📷 **Single-Modality Pre-Training** *The Bedrock of Perception.* Focuses on extracting foundational features from individual sensor streams (Camera or LiDAR) via self-supervised learning techniques, such as Contrastive Learning, Masked Modeling, and Forecasting. This paradigm establishes the fundamental representations for sensor-specific tasks.
+* 🔄 **Multi-Modality Pre-Training** *Bridging the Semantic-Geometric Gap.* Leverages cross-modal synergy to fuse heterogeneous sensor data. This category includes **LiDAR-Centric** (distilling visual semantics into geometry), **Camera-Centric** (injecting geometric priors into vision), and **Unified** frameworks that jointly learn modality-agnostic representations.
+* 🌍 **Spatial Intelligence & World Models** *The Frontier of Embodied Autonomy.* Represents the evolution from passive perception to active decision-making. This paradigm encompasses **Generative World Models** (e.g., video/occupancy generation), **Embodied Vision-Language-Action (VLA)** models, and systems capable of **Open-World** reasoning.
 
-For more details, kindly refer to our [paper](https://arxiv.org/abs/25xx.xxxxx).
+📄 **Paper:** [arXiv:25xx.xxxxx](https://arxiv.org/abs/25xx.xxxxx)
+
 
 ---
 
@@ -46,22 +44,22 @@ If you find this work helpful for your research, please kindly consider citing o
 
 ### Table of Contents
 
-  - [**1. Benchmarks & Datasets**](https://www.google.com/search?q=%231-benchmarks--datasets)
-      - [Vehicle-Based Datasets](https://www.google.com/search?q=%23vehicle-based-datasets)
-      - [Drone-Based Datasets](https://www.google.com/search?q=%23drone-based-datasets)
-      - [Other Datasets](https://www.google.com/search?q=%23other-datasets)
-  - [**2. Single-Modality Pre-Training**](https://www.google.com/search?q=%232-single-modality-pre-training)
-      - [LiDAR-Only](https://www.google.com/search?q=%23lidar-only)
-      - [Camera-Only](https://www.google.com/search?q=%23camera-only)
-  - [**3. Multi-Modality Pre-Training**](https://www.google.com/search?q=%233-multi-modality-pre-training)
-      - [LiDAR-Centric (Vision-to-LiDAR)](https://www.google.com/search?q=%23lidar-centric-pre-training)
-      - [Camera-Centric (LiDAR-to-Vision)](https://www.google.com/search?q=%23camera-centric-pre-training)
-      - [Unified Frameworks](https://www.google.com/search?q=%23unified-pre-training)
-  - [**4. Spatial Intelligence & World Models**](https://www.google.com/search?q=%234-spatial-intelligence--world-models)
-      - [Generative World Models](https://www.google.com/search?q=%23generative-world-models)
-      - [Vision-Language-Action (VLA)](https://www.google.com/search?q=%23vision-language-action-vla)
-      - [Open-World Perception](https://www.google.com/search?q=%23open-world-perception)
-  - [**5. Acknowledgements**](https://www.google.com/search?q=%235-acknowledgements)
+  - [**1. Benchmarks & Datasets**](#1-benchmarks--datasets)
+      - [Vehicle-Based Datasets](#vehicle-based-datasets)
+      - [Drone-Based Datasets](#drone-based-datasets)
+      - [Other Datasets](#other-datasets)
+  - [**2. Single-Modality Pre-Training**](#2-single-modality-pre-training)
+      - [LiDAR-Only](#lidar-only)
+      - [Camera-Only](#camera-only)
+  - [**3. Multi-Modality Pre-Training**](#3-multi-modality-pre-training)
+      - [LiDAR-Centric (Vision-to-LiDAR)](#lidar-centric-pre-training)
+      - [Camera-Centric (LiDAR-to-Vision)](#camera-centric-pre-training)
+      - [Unified Frameworks](#unified-pre-training)
+  - [**4. Spatial Intelligence & World Models**](#4-spatial-intelligence--world-models)
+      - [Generative World Models](#generative-world-models)
+      - [Vision-Language-Action (VLA)](#vision-language-action-vla)
+      - [Open-World Perception](#open-world-perception)
+  - [**5. Acknowledgements**](#5-acknowledgements)
 
 -----
 
