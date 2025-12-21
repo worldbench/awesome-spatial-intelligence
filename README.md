@@ -82,19 +82,19 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Dataset | Venue | Sensor | Task | Download |
 | :-: | :-: | :-: | :-: | :-: |
-| `M3ED` | CVPRW'23 | Cam (RGB/Gray), LiDAR, Event | 2D/3D Seg, Depth, Optical Flow | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://m3ed.io/download/) |
-| `CDrone` | GCPR'24 | Camera (Carla) | Monocular 3D Det | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://cvg.cit.tum.de/webshare/g/cdrone/data/) |
-| `VisDrone` | 2019 | Aerial Camera | Detection, Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/VisDrone/VisDrone-Dataset) |
-| `UAVid` | 2020 | Slanted Camera | Semantic Segmentation | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://uavid.nl) |
-| `BioDrone` | 2024 | Bionic Camera | Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](http://biodrone.aitestunion.com/) |
+| `M3ED` | [CVPRW'23](https://openaccess.thecvf.com/content/CVPR2023W/EventVision/html/Chaney_M3ED_Multi-Robot_Multi-Sensor_Multi-Environment_Event_Dataset_CVPRW_2023_paper.html) | Cam (RGB/Gray), LiDAR, Event | 2D/3D Seg, Depth, Optical Flow | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://m3ed.io/download/) |
+| `CDrone` | [GCPR'24](https://www.arxiv.org/pdf/2408.11958) | Camera (Carla) | Monocular 3D Det | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://cvg.cit.tum.de/webshare/g/cdrone/data/) |
+| `VisDrone` | [ICCVW'19](https://openaccess.thecvf.com/content_ICCVW_2019/papers/VISDrone/Du_VisDrone-DET2019_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ICCVW_2019_paper.pdf) | Aerial Camera | Detection, Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/VisDrone/VisDrone-Dataset) |
+| `UAVid` | [ISPRS JPRS'20](https://arxiv.org/abs/1810.10438) | Slanted Camera | Semantic Segmentation | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://uavid.nl) |
+| `BioDrone` | [IJCA'24](https://arxiv.org/abs/2402.04519) | Bionic Camera | Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](http://biodrone.aitestunion.com/) |
 
 ### Other Datasets
 
 | Dataset | Platform | Sensors | Website |
 |:-:|:-:|:-|:-:|
-| `RailSem19` | Railway | Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.wilddash.cc/railsem19) |
-| `WaterScenes` | USV (Water) | Camera, Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/WaterScenes/WaterScenes) |
-| `Han et al.` | Legged Robot | Cam, LiDAR | - |
+| [`RailSem19`](https://ieeexplore.ieee.org/document/9025646) | Railway | Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.wilddash.cc/railsem19) |
+| [`WaterScenes`](https://ieeexplore.ieee.org/document/10571852) | USV (Water) | Camera, Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/WaterScenes/WaterScenes) |
+| [`Han et al.`](https://arxiv.org/abs/2308.15143) | Legged Robot | Cam, LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://tencent-roboticsx.github.io/lifelike-agility-and-play/) |
 
 -----
 
@@ -106,25 +106,25 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Model | Paper | Venue | GitHub |
 |:-:|:-|:-:|:-:|
-| `PointContrast` | [![arXiv](https://img.shields.io/badge/arXiv-2007.10985-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2007.10985)<br>Unsupervised Pre-training for 3D Point Cloud Understanding | ECCV 2020 | [![GitHub](https://img.shields.io/github/stars/facebookresearch/PointContrast)](https://github.com/facebookresearch/PointContrast) |
-| `DepthContrast` | [![arXiv](https://img.shields.io/badge/arXiv-2101.02691-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2101.02691)<br>Self-supervised Pretraining of 3D Features on any Point-Cloud | ICCV 2021 | [![GitHub](https://img.shields.io/github/stars/facebookresearch/DepthContrast)](https://github.com/facebookresearch/DepthContrast) |
-| `SegContrast` | 3D Point Cloud Feature Representation Learning through Self-supervised Segment Discrimination | RA-L 2021 | [](https://github.com/PRBonn/segcontrast) |
-| `ProposalContrast` | Unsupervised Pre-training for LiDAR-Based 3D Object Detection | ECCV 2022 | [](https://github.com/yinjunbo/ProposalContrast) |
-| `Occupancy-MAE` | Self-supervised Pre-training Large-scale LiDAR Point Clouds with Masked Occupancy Autoencoders | T-IV 2023 | [](https://github.com/chaytonmin/Occupancy-MAE) |
-| `ALSO` | Automotive LiDAR Self-supervision by Occupancy Estimation | CVPR 2023 | [](https://github.com/valeoai/ALSO) |
-| `GD-MAE` | Generative Decoder for MAE Pre-training on LiDAR Point Clouds | CVPR 2023 | [](https://www.google.com/search?q=https://github.com/OpenDriveLab/GD-MAE) |
-| `AD-PT` | Autonomous Driving Pre-Training with Large-scale Point Cloud Dataset | NeurIPS 2023 | [](https://github.com/PJLab-ADG/3DTrans) |
-| `PatchContrast` | Self-Supervised Pre-training for 3D Object Detection | arXiv 2023 | [](https://www.google.com/search?q=) |
-| `MAELi` | Masked Autoencoder for Large-Scale LiDAR Point Clouds | WACV 2024 | [](https://www.google.com/search?q=) |
-| `BEV-MAE` | Bird's Eye View Masked Autoencoders for Point Cloud Pre-training | AAAI 2024 | [](https://github.com/VDIGPKU/BEV-MAE) |
-| `UnO` | Unsupervised Occupancy Fields for Perception and Forecasting | CVPR 2024 | [](https://www.google.com/search?q=) |
-| `BEVContrast` | Self-Supervision in BEV Space for Automotive Lidar Point Clouds | 3DV 2024 | [](https://github.com/valeoai/BEVContrast) |
-| `Copilot4D` | Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion | ICLR 2024 | [](https://www.google.com/search?q=) |
-| `T-MAE` | Temporal Masked Autoencoders for Point Cloud Representation Learning | ECCV 2024 | [](https://github.com/codename1995/t-mae) |
-| `PICTURE` | Point Cloud Reconstruction Is Insufficient to Learn 3D Representations | ACM MM 2024 | [](https://www.google.com/search?q=) |
-| `LSV-MAE` | Rethinking Masked-Autoencoder-Based 3D Point Cloud Pretraining | IV 2024 | [](https://www.google.com/search?q=) |
-| `UNIT` | Unsupervised Online Instance Segmentation through Time | arXiv 2024 | [](https://csautier.github.io/unit/) |
-| `R-MAE` | Sense Less, Generate More: Pre-training LiDAR Perception with Masked Autoencoders | arXiv 2024 | [](https://github.com/sinatayebati/R-MAE) |
+| `PointContrast` | [Unsupervised Pre-training for 3D Point Cloud Understanding](https://arxiv.org/abs/2007.10985) | ECCV 2020 | [![GitHub](https://img.shields.io/github/stars/facebookresearch/PointContrast)](https://github.com/facebookresearch/PointContrast) |
+| `DepthContrast` | [Self-supervised Pretraining of 3D Features on any Point-Cloud](https://arxiv.org/abs/2101.02691) | ICCV 2021 | [![GitHub](https://img.shields.io/github/stars/facebookresearch/DepthContrast)](https://github.com/facebookresearch/DepthContrast) |
+| `SegContrast` | [3D Point Cloud Feature Representation Learning through Self-supervised Segment Discrimination](https://ieeexplore.ieee.org/document/9681336)| RA-L 2021 | [![GitHub](https://img.shields.io/github/stars/PRBonn/segcontrast)](https://github.com/PRBonn/segcontrast) |
+| `ProposalContrast` | [Unsupervised Pre-training for LiDAR-Based 3D Object Detection](https://arxiv.org/abs/2207.12654) | ECCV 2022 | [![GitHub](https://img.shields.io/github/stars/yinjunbo/ProposalContrast)](https://github.com/yinjunbo/ProposalContrast) |
+| `Occupancy-MAE` | [Self-supervised Pre-training Large-scale LiDAR Point Clouds with Masked Occupancy Autoencoders](https://arxiv.org/abs/2206.09900) | T-IV 2023 | [![GitHub](https://img.shields.io/github/stars/chaytonmin/Occupancy-MAE)](https://github.com/chaytonmin/Occupancy-MAE) |
+| `ALSO` |[Automotive LiDAR Self-supervision by Occupancy Estimation](https://arxiv.org/abs/2212.05867) | CVPR 2023 | [![GitHub](https://img.shields.io/github/stars/valeoai/ALSO)](https://github.com/valeoai/ALSO) |
+| `GD-MAE` | [Generative Decoder for MAE Pre-training on LiDAR Point Clouds](https://arxiv.org/abs/2212.03010) | CVPR 2023 | [](https://www.google.com/search?q=) |
+| `AD-PT` | [Autonomous Driving Pre-Training with Large-scale Point Cloud Dataset](https://arxiv.org/abs/2306.00612) | NeurIPS 2023 | [![GitHub](https://img.shields.io/github/stars/PJLab-ADG/3DTrans)](https://github.com/PJLab-ADG/3DTrans) |
+| `PatchContrast` | [Self-Supervised Pre-training for 3D Object Detection](https://arxiv.org/abs/2308.06985) | arXiv 2023 | [](https://www.google.com/search?q=) |
+| `MAELi` | [Masked Autoencoder for Large-Scale LiDAR Point Clouds](https://arxiv.org/abs/2212.07207) | WACV 2024 | [](https://www.google.com/search?q=) |
+| `BEV-MAE` | [Bird's Eye View Masked Autoencoders for Point Cloud Pre-training](https://arxiv.org/abs/2212.05758) | AAAI 2024 | [![GitHub](https://img.shields.io/github/stars/VDIGPKU/BEV-MAE)](https://github.com/VDIGPKU/BEV-MAE) |
+| `UnO` | [Unsupervised Occupancy Fields for Perception and Forecasting](https://arxiv.org/abs/2406.08691) | CVPR 2024 | [](https://www.google.com/search?q=) |
+| `BEVContrast` | [Self-Supervision in BEV Space for Automotive Lidar Point Clouds](https://arxiv.org/abs/2310.17281) | 3DV 2024 | [![GitHub](https://img.shields.io/github/stars/valeoai/BEVContrast)](https://github.com/valeoai/BEVContrast) |
+| `Copilot4D` | [Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion](https://arxiv.org/abs/2311.01017) | ICLR 2024 | [](https://www.google.com/search?q=) |
+| `T-MAE` | [Temporal Masked Autoencoders for Point Cloud Representation Learning](https://arxiv.org/abs/2312.10217) | ECCV 2024 | [![GitHub](https://img.shields.io/github/stars/codename1995/t-mae)](https://github.com/codename1995/t-mae) |
+| `PICTURE` | [Point Cloud Reconstruction Is Insufficient to Learn 3D Representations](https://dl.acm.org/doi/10.1145/3664647.3680890) | ACM MM 2024 | [](https://www.google.com/search?q=) |
+| `LSV-MAE` | [Rethinking Masked-Autoencoder-Based 3D Point Cloud Pretraining](https://ieeexplore.ieee.org/document/10588770) | IV 2024 | [](https://www.google.com/search?q=) |
+| `UNIT` | [Unsupervised Online Instance Segmentation through Time](https://arxiv.org/abs/2409.07887) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/valeoai/UNIT)](https://github.com/valeoai/UNIT) |
+| `R-MAE` | [Sense Less, Generate More: Pre-training LiDAR Perception with Masked Autoencoders](https://arxiv.org/abs/2406.07833) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/sinatayebati/R-MAE)](https://github.com/sinatayebati/R-MAE) |
 
 ### Camera-Only
 
@@ -132,11 +132,11 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Model | Paper | Venue | GitHub |
 |:-:|:-|:-:|:-:|
-| `INoD` | Injected Noise Discriminator for Self-Supervised Representation | RA-L 2023 | [](https://www.google.com/search?q=) |
-| `TempO` | Self-Supervised Representation Learning From Temporal Ordering | RA-L 2024 | [](https://www.google.com/search?q=) |
-| `LetsMap` | Unsupervised Representation Learning for Label-Efficient Semantic BEV Mapping | ECCV 2024 | [](https://www.google.com/search?q=) |
-| `NeRF-MAE` | Masked AutoEncoders for Self-Supervised 3D Representation Learning | ECCV 2024 | [](https://www.google.com/search?q=) |
-| `VisionPAD` | A Vision-Centric Pre-training Paradigm for Autonomous Driving | arXiv 2024 | [](https://www.google.com/search?q=) |
+| `INoD` | [Injected Noise Discriminator for Self-Supervised Representation](https://arxiv.org/abs/2303.18101) | RA-L 2023 | [![GitHub](https://img.shields.io/github/stars/robot-learning-freiburg/INoD)](https://github.com/robot-learning-freiburg/INoD/) |
+| `TempO` | [Self-Supervised Representation Learning From Temporal Ordering](https://arxiv.org/abs/2302.09043) | RA-L 2024 | [](https://www.google.com/search?q=) |
+| `LetsMap` | [Unsupervised Representation Learning for Label-Efficient Semantic BEV Mapping](https://dl.acm.org/doi/abs/10.1007/978-3-031-73636-0_7) | ECCV 2024 | [](https://www.google.com/search?q=) |
+| `NeRF-MAE` | [Masked AutoEncoders for Self-Supervised 3D Representation Learning](https://arxiv.org/abs/2404.01300) | ECCV 2024 | [![GitHub](https://img.shields.io/github/stars/zubair-irshad/NeRF-MAE)](https://github.com/zubair-irshad/NeRF-MAE) |
+| `VisionPAD` | [A Vision-Centric Pre-training Paradigm for Autonomous Driving](https://arxiv.org/abs/2411.14716) | arXiv 2024 | [](https://www.google.com/search?q=) |
 
 -----
 
@@ -148,23 +148,23 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Model | Paper | Venue | GitHub |
 |:-:|:-|:-:|:-:|
-| `SLidR` | Image-to-Lidar Self-Supervised Distillation | CVPR 2022 | [](https://github.com/valeoai/SLidR) |
-| `ST-SLidR` | Self-Supervised Image-to-Point Distillation via Semantically Tolerant Contrastive Loss | CVPR 2023 | [](https://www.google.com/search?q=) |
-| `I2P-MAE` | Learning 3D Representations from 2D Pre-trained Models via Image-to-Point MAE | CVPR 2023 | [](https://github.com/ZrrSkywalker/I2P_MAE) |
-| `TriCC` | Unsupervised 3D Point Cloud Representation Learning by Triangle Constrained Contrast | CVPR 2023 | [](https://www.google.com/search?q=) |
-| `Seal` | Segment Any Point Cloud Sequences by Distilling Vision FMs | NeurIPS 23 | [](https://github.com/youquanl/Segment-Any-Point-Cloud) |
-| `PRED` | Pre-training via Semantic Rendering on LiDAR Point Clouds | NeurIPS 23 | [](https://www.google.com/search?q=) |
-| `ImageTo360` | 360° from a Single Camera: A Few-Shot Approach for LiDAR Segmentation | arXiv 2023 | [](https://www.google.com/search?q=) |
-| `ScaLR` | Three Pillars improving Vision Foundation Model Distillation for Lidar | CVPR 2024 | [](https://github.com/ZrrSkywalker/ScaLR) |
-| `CSC` | Building a Strong Pre-Training Baseline for Universal 3D Large-Scale Perception | CVPR 2024 | [](https://github.com/chenhaomingbob/CSC) |
-| `GPC` | Pre-Training LiDAR-Based 3D Object Detectors Through Colorization | ICLR 2024 | [](https://www.google.com/search?q=) |
-| `Cross-Modal SSL` | Cross-Modal Self-Supervised Learning with Effective Contrastive Units | IROS 2024 | [](https://github.com/qcraftai/cross-modal-ssl) |
-| `SuperFlow` | 4D Contrastive Superflows are Dense 3D Representation Learners | ECCV 2024 | [](https://github.com/Xiangxu-0103/SuperFlow) |
-| `Rel` | Image-to-Lidar Relational Distillation for Autonomous Driving Data | ECCV 2024 | [](https://www.google.com/search?q=) |
-| `HVDistill` | Transferring Knowledge from Images to Point Clouds via Unsupervised Hybrid-View Distillation | IJCV 2024 | [](https://www.google.com/search?q=) |
-| `RadarContrast` | Self-Supervised Contrastive Learning for Camera-to-Radar Knowledge Distillation | DCOSS-IoT 2024 | [](https://www.google.com/search?q=) |
-| `CM3D` | Shelf-Supervised Cross-Modal Pre-Training for 3D Object Detection | arXiv 2024 | [](https://www.google.com/search?q=) |
-| `OLIVINE` | Fine-grained Image-to-LiDAR Contrastive Distillation with Visual Foundation Models | arXiv 2024 | [](https://github.com/Eaphan/OLIVINE) |
+| `SLidR` | [Image-to-Lidar Self-Supervised Distillation](https://arxiv.org/abs/2203.16258) | CVPR 2022 | [![GitHub](https://img.shields.io/github/stars/valeoai/SLidR)](https://github.com/valeoai/SLidR) |
+| `ST-SLidR` | [Self-Supervised Image-to-Point Distillation via Semantically Tolerant Contrastive Loss](https://arxiv.org/abs/2301.05709) | CVPR 2023 | [](https://www.google.com/search?q=) |
+| `I2P-MAE` | [Learning 3D Representations from 2D Pre-trained Models via Image-to-Point MAE](https://arxiv.org/abs/2212.06785) | CVPR 2023 | [![GitHub](https://img.shields.io/github/stars/ZrrSkywalker/I2P-MAE)](https://github.com/ZrrSkywalker/I2P-MAE) |
+| `TriCC` | [Unsupervised 3D Point Cloud Representation Learning by Triangle Constrained Contrast](https://ieeexplore.ieee.org/document/10203592) | CVPR 2023 | [](https://www.google.com/search?q=) |
+| `Seal` | [Segment Any Point Cloud Sequences by Distilling Vision FMs](https://arxiv.org/abs/2306.09347) | NeurIPS 23 | [![GitHub](https://img.shields.io/github/stars/youquanl/Segment-Any-Point-Cloud)](https://github.com/youquanl/Segment-Any-Point-Cloud) |
+| `PRED` | [Pre-training via Semantic Rendering on LiDAR Point Clouds](https://arxiv.org/abs/2311.04501) | NeurIPS 23 | [](https://www.google.com/search?q=) |
+| `ImageTo360` | [360° from a Single Camera: A Few-Shot Approach for LiDAR Segmentation](https://arxiv.org/abs/2309.06197) | ICCVW 2023 | [](https://www.google.com/search?q=) |
+| `ScaLR` | [Three Pillars improving Vision Foundation Model Distillation for Lidar](https://arxiv.org/abs/2310.17504) | CVPR 2024 | [](https://github.com/ZrrSkywalker/ScaLR) |
+| `CSC` | [Building a Strong Pre-Training Baseline for Universal 3D Large-Scale Perception](https://arxiv.org/abs/2405.07201) | CVPR 2024 | [![GitHub](https://img.shields.io/github/stars/chenhaomingbob/CSC)](https://github.com/chenhaomingbob/CSC) |
+| `GPC` | [Pre-Training LiDAR-Based 3D Object Detectors Through Colorization](https://arxiv.org/abs/2310.14592v2) | ICLR 2024 | [![GitHub](https://img.shields.io/github/stars/tydpan/GPC)](https://github.com/tydpan/GPC) |
+| `Cross-Modal SSL` | [Cross-Modal Self-Supervised Learning with Effective Contrastive Units](https://arxiv.org/abs/2409.06827) | IROS 2024 | [![GitHub](https://img.shields.io/github/stars/qcraftai/cross-modal-ssl)](https://github.com/qcraftai/cross-modal-ssl) |
+| `SuperFlow` | [4D Contrastive Superflows are Dense 3D Representation Learners](https://arxiv.org/abs/2407.06190) | ECCV 2024 | [![GitHub](https://img.shields.io/github/stars/Xiangxu-0103/SuperFlow)](https://github.com/Xiangxu-0103/SuperFlow) |
+| `Rel` | [Image-to-Lidar Relational Distillation for Autonomous Driving Data](https://arxiv.org/abs/2409.00845) | ECCV 2024 | [](https://www.google.com/search?q=) |
+| `HVDistill` | [Transferring Knowledge from Images to Point Clouds via Unsupervised Hybrid-View Distillation](https://arxiv.org/abs/2409.00845) | IJCV 2024 | [![GitHub](https://img.shields.io/github/stars/zhangsha1024/HVDistill)](https://github.com/zhangsha1024/HVDistill) |
+| `RadarContrast` | [Self-Supervised Contrastive Learning for Camera-to-Radar Knowledge Distillation](https://ieeexplore.ieee.org/document/10621525) | DCOSS-IoT 2024 | [](https://www.google.com/search?q=) |
+| `CM3D` | [Shelf-Supervised Cross-Modal Pre-Training for 3D Object Detection](https://arxiv.org/abs/2406.10115) | CoRL 2024 | [![GitHub](https://img.shields.io/github/stars/meharkhurana03/cm3d)](https://github.com/meharkhurana03/cm3d) |
+| `OLIVINE` | [Fine-grained Image-to-LiDAR Contrastive Distillation with Visual Foundation Models](https://arxiv.org/abs/2405.14271) | NeurIPS 2024 | [![GitHub](https://img.shields.io/github/stars/Eaphan/OLIVINE)](https://github.com/Eaphan/OLIVINE) |
 
 ### Camera-Centric Pre-Training
 
@@ -172,21 +172,21 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Model | Paper | Venue | GitHub |
 |:-:|:-|:-:|:-:|
-| `DD3D` | Is Pseudo-Lidar needed for Monocular 3D Object detection? | ICCV 2021 | [](https://github.com/TRI-ML/dd3d) |
-| `DEPT` | Delving into the Pre-training Paradigm of Monocular 3D Object Detection | arXiv 2022 | [](https://www.google.com/search?q=) |
-| `OccNet` | Scene as Occupancy | ICCV 2023 | [](https://github.com/OpenDriveLab/OccNet) |
-| `GeoMIM` | Towards Better 3D Knowledge Transfer via Masked Image Modeling | ICCV 2023 | [](https://github.com/Sense-X/GeoMIM) |
-| `GAPretrain` | Geometric-aware Pretraining for Vision-centric 3D Object Detection | arXiv 2023 | [](https://github.com/OpenDriveLab/Birds-eye-view-Perception) |
-| `UniScene` | Multi-Camera Unified Pre-training via 3D Scene Reconstruction | RA-L 2024 | [](https://github.com/chaytonmin/UniScene) |
-| `SelfOcc` | Self-Supervised Vision-Based 3D Occupancy Prediction | CVPR 2024 | [](https://github.com/huang-yh/SelfOcc) |
-| `ViDAR` | Visual Point Cloud Forecasting enables Scalable Autonomous Driving | CVPR 2024 | [](https://github.com/OpenDriveLab/ViDAR) |
-| `DriveWorld` | 4D Pre-trained Scene Understanding via World Models | CVPR 2024 | [](https://www.google.com/search?q=) |
-| `OccFeat` | Self-supervised Occupancy Feature Prediction for Pretraining BEV Segmentation | CVPRW 2024 | [](https://www.google.com/search?q=) |
-| `OccWorld` | Learning a 3D Occupancy World Model for Autonomous Driving | ECCV 2024 | [](https://github.com/wzzheng/OccWorld) |
-| `MVS3D` | Exploiting the Potential of Multi-Frame Stereo Depth Estimation Pre-training | IJCNN 2024 | [](https://www.google.com/search?q=) |
-| `OccSora` | 4D Occupancy Generation Models as World Simulators | arXiv 2024 | [](https://github.com/wzzheng/OccSora) |
-| `MIM4D` | Masked Modeling with Multi-View Video for Autonomous Driving | arXiv 2024 | [](https://github.com/hustvl/MIM4D) |
-| `GaussianPretrain` | A Simple Unified 3D Gaussian Representation for Visual Pre-training | arXiv 2024 | [](https://www.google.com/search?q=) |
+| `DD3D` | [Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/abs/2108.06417) | ICCV 2021 | [![GitHub](https://img.shields.io/github/stars/TRI-ML/dd3d)](https://github.com/TRI-ML/dd3d) |
+| `DEPT` | [Delving into the Pre-training Paradigm of Monocular 3D Object Detection](https://arxiv.org/abs/2206.03657) | arXiv 2022 | [](https://www.google.com/search?q=) |
+| `OccNet` | [Scene as Occupancy](https://arxiv.org/abs/2306.02851) | ICCV 2023 | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/OccNet)](https://github.com/OpenDriveLab/OccNet) |
+| `GeoMIM` | [Towards Better 3D Knowledge Transfer via Masked Image Modeling](https://arxiv.org/abs/2303.11325) | ICCV 2023 | [![GitHub](https://img.shields.io/github/stars/Sense-X/GeoMIM)](https://github.com/Sense-X/GeoMIM) |
+| `GAPretrain` | [Geometric-aware Pretraining for Vision-centric 3D Object Detection](https://arxiv.org/abs/2304.03105) | arXiv 2023 | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/Birds-eye-view-Perception)](https://github.com/OpenDriveLab/Birds-eye-view-Perception) |
+| `UniScene` |[Multi-Camera Unified Pre-training via 3D Scene Reconstruction](https://arxiv.org/abs/2305.18829v5) | RA-L 2024 | [![GitHub](https://img.shields.io/github/stars/chaytonmin/UniScene)](https://github.com/chaytonmin/UniScene) |
+| `SelfOcc` | [Self-Supervised Vision-Based 3D Occupancy Prediction](https://arxiv.org/abs/2311.12754) | CVPR 2024 | [![GitHub](https://img.shields.io/github/stars/huang-yh/SelfOcc)](https://github.com/huang-yh/SelfOcc) |
+| `ViDAR` | [Visual Point Cloud Forecasting enables Scalable Autonomous Driving](https://arxiv.org/abs/2312.17655) | CVPR 2024 | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/ViDAR)](https://github.com/OpenDriveLab/ViDAR) |
+| `DriveWorld` | [4D Pre-trained Scene Understanding via World Models](https://arxiv.org/abs/2405.04390) | CVPR 2024 | [](https://www.google.com/search?q=) |
+| `OccFeat` | [Self-supervised Occupancy Feature Prediction for Pretraining BEV Segmentation](https://arxiv.org/abs/2404.14027) | CVPRW 2024 | [](https://www.google.com/search?q=) |
+| `OccWorld` | [Learning a 3D Occupancy World Model for Autonomous Driving](https://arxiv.org/abs/2311.16038) | ECCV 2024 | [![GitHub](https://img.shields.io/github/stars/wzzheng/OccWorld)](https://github.com/wzzheng/OccWorld) |
+| `MVS3D` | [Exploiting the Potential of Multi-Frame Stereo Depth Estimation Pre-training](https://ieeexplore.ieee.org/abstract/document/10650924) | IJCNN 2024 | [](https://www.google.com/search?q=) |
+| `OccSora` | [4D Occupancy Generation Models as World Simulators](https://arxiv.org/abs/2405.20337) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/wzzheng/OccSora)](https://github.com/wzzheng/OccSora) |
+| `MIM4D` | [Masked Modeling with Multi-View Video for Autonomous Driving](https://arxiv.org/abs/2403.08760) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/hustvl/MIM4D)](https://github.com/hustvl/MIM4D) |
+| `GaussianPretrain` | [A Simple Unified 3D Gaussian Representation for Visual Pre-training](https://arxiv.org/abs/2411.12452) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/Public-BOTs/GaussianPretrain)](https://github.com/Public-BOTs/GaussianPretrain) |
 
 ### Unified Pre-Training
 
@@ -194,12 +194,12 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Model | Paper | Venue | GitHub |
 |:-:|:-|:-:|:-:|
-| `PonderV2` | Pave the Way for 3D Foundation Model with A Universal Pre-training Paradigm | arXiv 2023 | [](https://github.com/OpenGVLab/PonderV2) |
-| `UniPAD` | A Universal Pre-training Paradigm for Autonomous Driving | CVPR 2024 | [](https://github.com/Nightmare-n/UniPAD) |
-| `UniM2AE` | Multi-Modal Masked Autoencoders with Unified 3D Representation | ECCV 2024 | [](https://github.com/hollow-503/UniM2AE) |
-| `ConDense` | Consistent 2D/3D Pre-training for Dense and Sparse Features | ECCV 2024 | [](https://www.google.com/search?q=) |
-| `Unified Pretrain` | Learning Shared RGB-D Fields: Unified Self-supervised Pre-training | arXiv 2024 | [](https://github.com/Xiaohao-Xu/Unified-Pretrain-AD/) |
-| `BEVWorld` | A Multimodal World Simulator via Unified BEV Latent Space | arXiv 2024 | [](https://github.com/zympsyche/BevWorld) |
+| `PonderV2` | [Pave the Way for 3D Foundation Model with A Universal Pre-training Paradigm](https://arxiv.org/abs/2310.08586) | arXiv 2023 | [![GitHub](https://img.shields.io/github/stars/OpenGVLab/PonderV2)](https://github.com/OpenGVLab/PonderV2) |
+| `UniPAD` | [A Universal Pre-training Paradigm for Autonomous Driving](https://arxiv.org/abs/2310.08370) | CVPR 2024 | [![GitHub](https://img.shields.io/github/stars/Nightmare-n/UniPAD)](https://github.com/Nightmare-n/UniPAD) |
+| `UniM2AE` | [Multi-Modal Masked Autoencoders with Unified 3D Representation](https://arxiv.org/abs/2308.10421) | ECCV 2024 | [![GitHub](https://img.shields.io/github/stars/hollow-503/UniM2AE)](https://github.com/hollow-503/UniM2AE) |
+| `ConDense` | [Consistent 2D/3D Pre-training for Dense and Sparse Features](https://arxiv.org/abs/2408.17027) | ECCV 2024 | [](https://www.google.com/search?q=) |
+| `Unified Pretrain` | [Learning Shared RGB-D Fields: Unified Self-supervised Pre-training](https://arxiv.org/abs/2405.17942) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/Xiaohao-Xu/Unified-Pretrain-AD)](https://github.com/Xiaohao-Xu/Unified-Pretrain-AD/) |
+| `BEVWorld` | [A Multimodal World Simulator for Autonomous Driving via Unified BEV Latent Space](https://arxiv.org/abs/2407.05679) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/zympsyche/BevWorld)](https://github.com/zympsyche/BevWorld) |
 
 -----
 
@@ -211,14 +211,14 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Model | Paper | Venue | GitHub |
 |:-:|:-|:-:|:-:|
-| `CLIP2Scene` | Towards Label-efficient 3D Scene Understanding by CLIP | CVPR 2023 | [](https://github.com/runnanchen/CLIP2Scene) |
-| `OpenScene` | 3D Scene Understanding with Open Vocabularies | CVPR 2023 | [](https://www.google.com/search?q=) |
-| `CLIP-FO3D` | Learning Free Open-world 3D Scene Representations from 2D Dense CLIP | ICCVW 2023 | [](https://www.google.com/search?q=) |
-| `POP-3D` | Open-Vocabulary 3D Occupancy Prediction from Images | NeurIPS 2023 | [](https://vobecant.github.io/POP3D/) |
-| `VLM2Scene` | Self-Supervised Image-Text-LiDAR Learning with Foundation Models | AAAI 2024 | [](https://www.google.com/search?q=) |
-| `SAL` | Better Call SAL: Towards Learning to Segment Anything in Lidar | ECCV 2024 | [](https://github.com/nv-dvl/segment-anything-lidar) |
-| `Affinity3D` | Propagating Instance-Level Semantic Affinity for Zero-Shot Semantic Seg | ACM MM 2024 | [](https://www.google.com/search?q=) |
-| `UOV` | 3D Unsupervised Learning by Distilling 2D Open-Vocabulary Segmentation Models | arXiv 2024 | [](https://github.com/sbysbysbys/UOV) |
+| `CLIP2Scene` | [Towards Label-efficient 3D Scene Understanding by CLIP](https://arxiv.org/abs/2301.04926) | CVPR 2023 | [![GitHub](https://img.shields.io/github/stars/runnanchen/CLIP2Scene)](https://github.com/runnanchen/CLIP2Scene) |
+| `OpenScene` | [3D Scene Understanding with Open Vocabularies](https://arxiv.org/abs/2211.15654) | CVPR 2023 | [![GitHub](https://img.shields.io/github/stars/pengsongyou/openscene)](https://github.com/pengsongyou/openscene) |
+| `CLIP-FO3D` | [Learning Free Open-world 3D Scene Representations from 2D Dense CLIP](https://arxiv.org/abs/2303.04748) | ICCVW 2023 | [](https://www.google.com/search?q=) |
+| `POP-3D` | [Open-Vocabulary 3D Occupancy Prediction from Images](https://arxiv.org/abs/2401.09413) | NeurIPS 2023 | [![GitHub](https://img.shields.io/github/stars/vobecant/POP3D)](https://github.com/vobecant/POP3D) |
+| `VLM2Scene` | [Self-Supervised Image-Text-LiDAR Learning with Foundation Models](https://ojs.aaai.org/index.php/AAAI/article/view/28121) | AAAI 2024 | [![GitHub](https://img.shields.io/github/stars/gbliao/VLM2Scene)](https://github.com/gbliao/VLM2Scene) |
+| `SAL` | [Better Call SAL: Towards Learning to Segment Anything in Lidar](https://arxiv.org/abs/2403.13129) | ECCV 2024 | [![GitHub](https://img.shields.io/github/stars/nv-dvl/segment-anything-lidar)](https://github.com/nv-dvl/segment-anything-lidar) |
+| `Affinity3D` | [Propagating Instance-Level Semantic Affinity for Zero-Shot Semantic Seg](https://dl.acm.org/doi/10.1145/3664647.3680651) | ACM MM 2024 | [](https://www.google.com/search?q=) |
+| `UOV` | [3D Unsupervised Learning by Distilling 2D Open-Vocabulary Segmentation Models for Autonomous Driving](https://arxiv.org/html/2405.15286v1) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/sbysbysbys/UOV)](https://github.com/sbysbysbys/UOV) |
 
 -----
 
