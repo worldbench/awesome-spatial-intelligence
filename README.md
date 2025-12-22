@@ -4,7 +4,7 @@
 ### A Survey on Multi-Modal Pre-Training for Autonomous Systems
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![arXiv](https://img.shields.io/badge/arXiv-25xx.xxxxx-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/25xx.xxxxx)
+<!-- [![arXiv](https://img.shields.io/badge/arXiv-25xx.xxxxx-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/25xx.xxxxx) -->
 ![Visitors](https://komarev.com/ghpvc/?username=worldbench&repo=awesome-spatial-intelligence&label=Visitors&color=yellow&style=social)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat)](https://github.com/worldbench/awesome-spatial-intelligence/pulls)
 
@@ -20,9 +20,9 @@ In this work, we establish a systematic taxonomy for the field, unifying termino
 
 * 📷 **Single-Modality Pre-Training** *The Bedrock of Perception.* Focuses on extracting foundational features from individual sensor streams (Camera or LiDAR) via self-supervised learning techniques, such as Contrastive Learning, Masked Modeling, and Forecasting. This paradigm establishes the fundamental representations for sensor-specific tasks.
 * 🔄 **Multi-Modality Pre-Training** *Bridging the Semantic-Geometric Gap.* Leverages cross-modal synergy to fuse heterogeneous sensor data. This category includes **LiDAR-Centric** (distilling visual semantics into geometry), **Camera-Centric** (injecting geometric priors into vision), and **Unified** frameworks that jointly learn modality-agnostic representations.
-* 🌍 **Spatial Intelligence & World Models** *The Frontier of Embodied Autonomy.* Represents the evolution from passive perception to active decision-making. This paradigm encompasses **Generative World Models** (e.g., video/occupancy generation), **Embodied Vision-Language-Action (VLA)** models, and systems capable of **Open-World** reasoning.
+* 🌍 **Open-World Perception and Planning** *The Frontier of Embodied Autonomy.* Represents the evolution from passive perception to active decision-making. This paradigm encompasses **Generative World Models** (e.g., video/occupancy generation), **Embodied Vision-Language-Action (VLA)** models, and systems capable of **Open-World** reasoning.
 
-📄 **Paper:** [arXiv:25xx.xxxxx](https://arxiv.org/abs/25xx.xxxxx)
+📄 **[Paper Link]()**
 
 
 ---
@@ -55,10 +55,9 @@ If you find this work helpful for your research, please kindly consider citing o
       - [LiDAR-Centric (Vision-to-LiDAR)](#lidar-centric-pre-training)
       - [Camera-Centric (LiDAR-to-Vision)](#camera-centric-pre-training)
       - [Unified Frameworks](#unified-pre-training)
-  - [**4. Spatial Intelligence & World Models**](#4-spatial-intelligence--world-models)
-      - [Generative World Models](#generative-world-models)
-      - [Vision-Language-Action (VLA)](#vision-language-action-vla)
-      - [Open-World Perception](#open-world-perception)
+  - [**4. Open-World Perception and Planning**](#4-open-world-perception-and-planning)
+      - [Text-Grounded Understanding](#text-grounded-understanding)
+      - [Unified World Representation for Action](#unified-world-representation-for-action)
   - [**5. Acknowledgements**](#5-acknowledgements)
 
 -----
@@ -86,15 +85,15 @@ If you find this work helpful for your research, please kindly consider citing o
 | `CDrone` | [GCPR'24](https://www.arxiv.org/pdf/2408.11958) | Camera (Carla) | Monocular 3D Det | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://cvg.cit.tum.de/webshare/g/cdrone/data/) |
 | `VisDrone` | [ICCVW'19](https://openaccess.thecvf.com/content_ICCVW_2019/papers/VISDrone/Du_VisDrone-DET2019_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ICCVW_2019_paper.pdf) | Aerial Camera | Detection, Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/VisDrone/VisDrone-Dataset) |
 | `UAVid` | [ISPRS JPRS'20](https://arxiv.org/abs/1810.10438) | Slanted Camera | Semantic Segmentation | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://uavid.nl) |
-| `BioDrone` | [IJCA'24](https://arxiv.org/abs/2402.04519) | Bionic Camera | Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](http://biodrone.aitestunion.com/) |
+| `BioDrone` | [IJCV'24](https://arxiv.org/abs/2402.04519) | Bionic Camera | Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](http://biodrone.aitestunion.com/) |
 
-### Other Datasets
+### Other Robotic Platforms
 
-| Dataset | Platform | Sensors | Website |
-|:-:|:-:|:-|:-:|
-| [`RailSem19`](https://ieeexplore.ieee.org/document/9025646) | Railway | Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.wilddash.cc/railsem19) |
-| [`WaterScenes`](https://ieeexplore.ieee.org/document/10571852) | USV (Water) | Camera, Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/WaterScenes/WaterScenes) |
-| [`Han et al.`](https://arxiv.org/abs/2308.15143) | Legged Robot | Cam, LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://tencent-roboticsx.github.io/lifelike-agility-and-play/) |
+| Dataset | Venue | Platform | Sensors | Website |
+|:-:|:-:|:-|:-:|:-:|
+| `RailSem19` |[CVPRW'19](https://openaccess.thecvf.com/content_CVPRW_2019/papers/WAD/Zendel_RailSem19_A_Dataset_for_Semantic_Rail_Scene_Understanding_CVPRW_2019_paper.pdf) | Railway | Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.wilddash.cc/railsem19) |
+| `WaterScenes` | [TITS'24](https://ieeexplore.ieee.org/document/10571852) | USV (Water) | Camera, Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/WaterScenes/WaterScenes) |
+| `Han et al.` | [NMI'24](https://arxiv.org/abs/2308.15143) | Legged Robot | Depth Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://tencent-roboticsx.github.io/lifelike-agility-and-play/) |
 
 -----
 
@@ -203,11 +202,9 @@ If you find this work helpful for your research, please kindly consider citing o
 
 -----
 
-# 4. Spatial Intelligence & World Models
+# 4. Open-World Perception and Planning
 
-### Open-World Perception
-
-> *Text-Grounded and Open-Vocabulary Understanding.*
+### Text-Grounded Understanding
 
 | Model | Paper | Venue | GitHub |
 |:-:|:-|:-:|:-:|
@@ -219,6 +216,9 @@ If you find this work helpful for your research, please kindly consider citing o
 | `SAL` | [Better Call SAL: Towards Learning to Segment Anything in Lidar](https://arxiv.org/abs/2403.13129) | ECCV 2024 | [![GitHub](https://img.shields.io/github/stars/nv-dvl/segment-anything-lidar)](https://github.com/nv-dvl/segment-anything-lidar) |
 | `Affinity3D` | [Propagating Instance-Level Semantic Affinity for Zero-Shot Semantic Seg](https://dl.acm.org/doi/10.1145/3664647.3680651) | ACM MM 2024 | [](https://www.google.com/search?q=) |
 | `UOV` | [3D Unsupervised Learning by Distilling 2D Open-Vocabulary Segmentation Models for Autonomous Driving](https://arxiv.org/html/2405.15286v1) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/sbysbysbys/UOV)](https://github.com/sbysbysbys/UOV) |
+
+
+### Unified World Representation for Action
 
 -----
 
