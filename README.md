@@ -88,8 +88,8 @@ If you find this work helpful for your research, please kindly consider citing o
 | `Dual Radar` | [Sci. Data'25](https://www.nature.com/articles/s41597-025-04698-2) | 1 Cam, 1 LiDAR(80) 2 Radar| 3D Det | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/adept-thu/Dual-Radar) |
 | `MAN TruckScenes` | [NeurIPS'24](https://arxiv.org/abs/2407.07462) | 4 Cam, 6 LiDAR(64), 6 RADAR | 3D Det | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://registry.opendata.aws/man-truckscenes/) |
 | `OmniHD-Scenes` | [arXiv'24](https://arxiv.org/pdf/2412.10734) | 6 Cam, 1 LiDAR(128), 6 RADAR | 3D Det, Occ, HD Map | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.2077ai.com/OmniHD-Scenes) |
-| `AevaScenes` | [2025](AevaScenes: Open-access 4D FMCW LiDAR and camera dataset) |6 Cam, 6 LiDAR | 3D Det, HD Map | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://scenes.aeva.com) |
-| `PhysicalAI-AV` | [2025](https://huggingface.co/datasets/nvidia/ PhysicalAI-Autonomous-Vehicles) | 7 Cam, 1 LiDAR, 11 RADAR | E2E Plan | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://huggingface.co/datasets/nvidia/ PhysicalAI-Autonomous-Vehicles) |
+| `AevaScenes` | [2025](https://scenes.aeva.com/) |6 Cam, 6 LiDAR | 3D Det, HD Map | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://scenes.aeva.com) |
+| `PhysicalAI-AV` | [2025](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles) | 7 Cam, 1 LiDAR, 11 RADAR | E2E Plan | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles) |
 
 ### Drone-Based Datasets
 
