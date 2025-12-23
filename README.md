@@ -119,13 +119,31 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | Dataset | Venue | Platform | Sensors | Website |
 |:-:|:-:|:-|:-:|:-:|
-| `RailSem19` |[CVPRW'19](https://openaccess.thecvf.com/content_CVPRW_2019/papers/WAD/Zendel_RailSem19_A_Dataset_for_Semantic_Rail_Scene_Understanding_CVPRW_2019_paper.pdf) | Railway | Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.wilddash.cc/railsem19) |
-| `WaterScenes` | [TITS'24](https://ieeexplore.ieee.org/document/10571852) | USV (Water) | Camera, Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/WaterScenes/WaterScenes) |
-| `Han et al.` | [NMI'24](https://arxiv.org/abs/2308.15143) | Legged Robot | Depth Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://tencent-roboticsx.github.io/lifelike-agility-and-play/) |
+| `RailSem19` | [CVPRW'19](https://openaccess.thecvf.com/content_CVPRW_2019/papers/WAD/Zendel_RailSem19_A_Dataset_for_Semantic_Rail_Scene_Understanding_CVPRW_2019_paper.pdf) | Railway | 1× Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.wilddash.cc/railsem19) |
+| `FRSign` | [arXiv'20](https://arxiv.org/abs/2002.05665) | Railway | 2× Camera (Stereo) | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://frsign.irt-systemx.fr/) |
+| `RAWPED` | [TVT'20](https://ieeexplore.ieee.org/abstract/document/9050835) | Railway | 1× Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://zenodo.org/records/3741742)|
+| `SRLC` | [AutCon'21](https://www.sciencedirect.com/science/article/pii/S0926580521002909) | Railway | 1× LiDAR | |
+| `Rail-DB` | [MM'22](https://dl.acm.org/doi/abs/10.1145/3503161.3548050) | Railway | 1× Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/Sampson-Lee/Rail-Detection) |
+| `RailSet` | [IPAS'22](https://ieeexplore.ieee.org/abstract/document/10052883) | Railway | 1× Camera |  |
+| `OSDaR23` | [ICRAE'23](https://ieeexplore.ieee.org/abstract/document/10458449) | Railway | 9× Camera, 6× LiDAR, 1× Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://osdar23.com/) |
+| `Rail3D` | [Infra'24](https://www.researchgate.net/publication/379701734_Multi-Context_Point_Cloud_Dataset_and_Machine_Learning_for_Railway_Semantic_Segmentation) | Railway | 4× Camera, 1× LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/akharroubi/Rail3D) |
+| `WHU-Railway3D` | [TITS'24](https://ieeexplore.ieee.org/abstract/document/10716569) | Railway | 1× LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/WHU-USI3DV/WHU-Railway3D) |
+| `FloW` | [ICCV'21](https://openaccess.thecvf.com/content/ICCV2021/html/Cheng_FloW_A_Dataset_and_Benchmark_for_Floating_Waste_Detection_in_ICCV_2021_paper.html) | USV (Water) | 2× Camera, 1× 4D Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/ORCA-Uboat/FloW-Dataset) |
+| `DartMouth` | [IROS'21](https://ieeexplore.ieee.org/abstract/document/9636028) | USV (Water) | 3× Camera, 1× LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/dartmouthrobotics/asv_detection_dataset.git) |
+| `MODS` | [TITS'21](https://arxiv.org/abs/2105.02359) | USV (Water) | 2× Camera, 1× LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/bovcon/mods) |
+| `SeaSAW` | [CVPRW'22](https://openaccess.thecvf.com/content/CVPR2022W/Precognition/html/Kaur_Sea_Situational_Awareness_SeaSAW_Dataset_CVPRW_2022_paper.html) | USV (Water) | 5× Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://sea-machines.com/introducing-sea-machines-industry-leading-sea-situational-awareness-seasaw-dataset/) |
+| `WaterScenes` | [T-ITS'24](https://ieeexplore.ieee.org/document/10571852) | USV (Water) | 1× Camera, 1× 4D Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/WaterScenes/WaterScenes) |
+| `MVDD13` | [Appl. Ocean Res.'24](https://www.sciencedirect.com/science/article/pii/S0141118723003760) | USV (Water) | 1× Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/yyuanwang1010/MVDD13) |
+| `SeePerSea` | [TFR'25](https://arxiv.org/pdf/2404.18411) | USV (Water) | 1× Camera, 1× LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://seepersea.github.io) |
+| `WaterVG` | [TITS'25](https://ieeexplore.ieee.org/abstract/document/10847630) | USV (Water) | 1× Camera, 1× 4D Radar | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/WaterVG/WaterVG) |
+| `Han et al.` | [NMI'24](https://arxiv.org/abs/2308.15143) | Legged Robot | 1× Depth Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://tencent-roboticsx.github.io/lifelike-agility-and-play/) |
+| `Luo et al.` | [CVPR'25](https://openaccess.thecvf.com/content/CVPR2025/html/Luo_Omnidirectional_Multi-Object_Tracking_CVPR_2025_paper.html) | Legged Robot | 1× Panoramic Camera | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/xifen523/OmniTrack) |
+| `QuadOcc` | [arXiv'25](https://arxiv.org/abs/2511.03571) | Legged Robot | 1× Panoramic Camera, 1× LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/MasterHow/OneOcc) |
+| `M3ED` | [CVPRW'23](https://openaccess.thecvf.com/content/CVPR2023W/EventVision/html/Chaney_M3ED_Multi-Robot_Multi-Sensor_Multi-Environment_Event_Dataset_CVPRW_2023_paper.html) | Multi-Robot | 3× Camera, 2× Event Camera, 1× LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://m3ed.io/download/) |
+| `Pi3DET` | [ICCV'25](https://openaccess.thecvf.com/content/ICCV2025/html/Liang_Perspective-Invariant_3D_Object_Detection_ICCV_2025_paper.html) | Multi-Robot | 3× Camera, 2× Event Camera, 1× LiDAR | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://pi3det.github.io/) |
+
 
 -----
-
-# 2. Single-Modality Pre-Training
 
 ### LiDAR-Only
 
