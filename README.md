@@ -145,6 +145,8 @@ If you find this work helpful for your research, please kindly consider citing o
 
 -----
 
+# 2. Single-Modality Pre-Training
+
 ### LiDAR-Only
 
 > *Methods utilizing Point Cloud Contrastive Learning, Masked Autoencoders (MAE), or Forecasting.*
