@@ -1,7 +1,7 @@
 <div align=center>
 
 # Forging Spatial Intelligence
-### A Survey on Multi-Modal Pre-Training for Autonomous Systems
+### A Roadmap of Multi-Modal Pre-Training for Autonomous Systems
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ![Visitors](https://komarev.com/ghpvc/?username=worldbench&repo=awesome-spatial-intelligence&label=Visitors&color=yellow&style=social)
