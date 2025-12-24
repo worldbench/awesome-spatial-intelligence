@@ -1,7 +1,7 @@
 <div align=center>
 
 # Forging Spatial Intelligence
-### A Roadmap of Multi-Modal Pre-Training for Autonomous Systems
+### A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ![Visitors](https://komarev.com/ghpvc/?username=worldbench&repo=awesome-spatial-intelligence&label=Visitors&color=yellow&style=social)
@@ -32,7 +32,7 @@ If you find this work helpful for your research, please kindly consider citing o
 
 ```bibtex
 @article{wang2026forging,
-    title   = {Forging Spatial Intelligence: A Roadmap of Multi-Modal Pre-Training for Autonomous Systems},
+    title   = {Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems},
     author  = {Song Wang and Lingdong Kong and Xiaolu Liu and Hao Shi and Wentong Li and Jianke Zhu and Steven C. H. Hoi},
     journal = {arXiv preprint arXiv:2601.xxxxx},
     year    = {2026}
