@@ -13,7 +13,7 @@
 
 </div>
 
-This repository serves as the official resource collection for the survey paper **"Forging Spatial Intelligence: A Survey on Multi-Modal Pre-Training for Autonomous Systems"**.
+This repository serves as the official resource collection for the paper **"Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems"**.
 
 In this work, we establish a systematic taxonomy for the field, unifying terminology, scope, and evaluation benchmarks. We organize existing methodologies into three complementary paradigms based on information flow and abstraction level:
 
