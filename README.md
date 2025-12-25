@@ -212,11 +212,14 @@ If you find this work helpful for your research, please kindly consider citing o
 | Model | Paper | Venue | GitHub |
 |:-:|:-|:-:|:-:|
 | `SLidR` | [Image-to-Lidar Self-Supervised Distillation](https://arxiv.org/abs/2203.16258) | CVPR 2022 | [![GitHub](https://img.shields.io/github/stars/valeoai/SLidR)](https://github.com/valeoai/SLidR) |
+| `SimIPU` | [Simipu: Simple 2d image and 3d point cloud unsupervised pre-training for spatial-aware visual representations](https://ojs.aaai.org/index.php/AAAI/article/view/20040) | AAAI 2022 | [![GitHub](https://img.shields.io/github/stars/zhyever/SimIPU)](https://github.com/zhyever/SimIPU) |
+| `SSPC-Im` | [Self-supervised pre-training of 3d point cloud networks with image data](https://arxiv.org/abs/2211.11801) | CoRL 2022 | [](https://www.google.com/search?q=) |
 | `ST-SLidR` | [Self-Supervised Image-to-Point Distillation via Semantically Tolerant Contrastive Loss](https://arxiv.org/abs/2301.05709) | CVPR 2023 | [](https://www.google.com/search?q=) |
 | `I2P-MAE` | [Learning 3D Representations from 2D Pre-trained Models via Image-to-Point MAE](https://arxiv.org/abs/2212.06785) | CVPR 2023 | [![GitHub](https://img.shields.io/github/stars/ZrrSkywalker/I2P-MAE)](https://github.com/ZrrSkywalker/I2P-MAE) |
 | `TriCC` | [Unsupervised 3D Point Cloud Representation Learning by Triangle Constrained Contrast](https://ieeexplore.ieee.org/document/10203592) | CVPR 2023 | [](https://www.google.com/search?q=) |
 | `Seal` | [Segment Any Point Cloud Sequences by Distilling Vision FMs](https://arxiv.org/abs/2306.09347) | NeurIPS 23 | [![GitHub](https://img.shields.io/github/stars/youquanl/Segment-Any-Point-Cloud)](https://github.com/youquanl/Segment-Any-Point-Cloud) |
 | `PRED` | [Pre-training via Semantic Rendering on LiDAR Point Clouds](https://arxiv.org/abs/2311.04501) | NeurIPS 23 | [](https://www.google.com/search?q=) |
+| `LiMA` | [Beyond one shot, beyond one perspective: Cross-view and long-horizon distillation for better lidar representations](https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Beyond_One_Shot_Beyond_One_Perspective_Cross-View_and_Long-Horizon_Distillation_ICCV_2025_paper.html) | ICCV 2025 | [![GitHub](https://img.shields.io/github/stars/Xiangxu-0103/LiMA)](https://github.com/Xiangxu-0103/LiMA) |
 | `ImageTo360` | [360° from a Single Camera: A Few-Shot Approach for LiDAR Segmentation](https://arxiv.org/abs/2309.06197) | ICCVW 2023 | [](https://www.google.com/search?q=) |
 | `ScaLR` | [Three Pillars improving Vision Foundation Model Distillation for Lidar](https://arxiv.org/abs/2310.17504) | CVPR 2024 | [](https://github.com/ZrrSkywalker/ScaLR) |
 | `CSC` | [Building a Strong Pre-Training Baseline for Universal 3D Large-Scale Perception](https://arxiv.org/abs/2405.07201) | CVPR 2024 | [![GitHub](https://img.shields.io/github/stars/chenhaomingbob/CSC)](https://github.com/chenhaomingbob/CSC) |
@@ -228,6 +231,11 @@ If you find this work helpful for your research, please kindly consider citing o
 | `RadarContrast` | [Self-Supervised Contrastive Learning for Camera-to-Radar Knowledge Distillation](https://ieeexplore.ieee.org/document/10621525) | DCOSS-IoT 2024 | [](https://www.google.com/search?q=) |
 | `CM3D` | [Shelf-Supervised Cross-Modal Pre-Training for 3D Object Detection](https://arxiv.org/abs/2406.10115) | CoRL 2024 | [![GitHub](https://img.shields.io/github/stars/meharkhurana03/cm3d)](https://github.com/meharkhurana03/cm3d) |
 | `OLIVINE` | [Fine-grained Image-to-LiDAR Contrastive Distillation with Visual Foundation Models](https://arxiv.org/abs/2405.14271) | NeurIPS 2024 | [![GitHub](https://img.shields.io/github/stars/Eaphan/OLIVINE)](https://github.com/Eaphan/OLIVINE) |
+| `EUCA-3DP` | [Exploring the Untouched Sweeps for Conflict-Aware 3D Segmentation Pretraining](https://arxiv.org/abs/2407.07465) | arXiv 2024 | [](https://www.google.com/search?q=) |
+| `GASP` | [Gasp: Unifying geometric and semantic self-supervised pre-training for autonomous driving](https://arxiv.org/abs/2503.15672) | arXiv 2025 | [![GitHub](https://img.shields.io/github/stars/LiljaAdam/gasp)](https://github.com/LiljaAdam/gasp) |
+| `BALViT` | [Label-Efficient LiDAR Scene Understanding with 2D-3D Vision Transformer Adapters](https://openreview.net/forum?id=w3MTdtHYKY) | ICRAW 2025 | [](https://www.google.com/search?q=) |
+
+
 
 ### Camera-Centric Pre-Training
 
