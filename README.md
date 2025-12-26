@@ -276,6 +276,42 @@ If you find this work helpful for your research, please kindly consider citing o
 | `ConDense` | [Consistent 2D/3D Pre-training for Dense and Sparse Features](https://arxiv.org/abs/2408.17027) | ECCV 2024 | [](https://www.google.com/search?q=) |
 | `Unified Pretrain` | [Learning Shared RGB-D Fields: Unified Self-supervised Pre-training](https://arxiv.org/abs/2405.17942) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/Xiaohao-Xu/Unified-Pretrain-AD)](https://github.com/Xiaohao-Xu/Unified-Pretrain-AD/) |
 | `BEVWorld` | [A Multimodal World Simulator for Autonomous Driving via Unified BEV Latent Space](https://arxiv.org/abs/2407.05679) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/zympsyche/BevWorld)](https://github.com/zympsyche/BevWorld) |
+| `NS-MAE` | [Learning Shared RGB-D Fields: Unified Self-supervised Pre-training for Label-efficient LiDAR-Camera 3D Perception](https://arxiv.org/abs/2405.17942) | arXiv 2024 | []() |
+| `CLAP` | [CLAP: Unsupervised 3D Representation Learning for Fusion 3D Perception via Curvature Sampling and Prototype Learning](https://arxiv.org/abs/2412.03059) | arXiv 2024 | []() |
+| `GS3` | [Point Cloud Unsupervised Pre-training via 3D Gaussian Splatting](https://arxiv.org/abs/2411.18667) | arXiv 2024 | []() |
+| `Hermes` | [Hermes: A unified self-driving world model for simultaneous 3d scene understanding and generation](https://arxiv.org/abs/2501.14729) | ICCV 2025 | [![GitHub](https://img.shields.io/github/stars/LMD0311/HERMES)](https://github.com/LMD0311/HERMES) |
+| `LRS4Fusion` | [Self-Supervised Sparse Sensor Fusion for Long Range Perception](https://openaccess.thecvf.com/content/ICCV2025/html/Palladin_Self-Supervised_Sparse_Sensor_Fusion_for_Long_Range_Perception_ICCV_2025_paper.html) | ICCV 2025 | [![GitHub](https://img.shields.io/github/stars/princeton-computational-imaging/LRS4Fusion)](https://github.com/princeton-computational-imaging/LRS4Fusion) |
+| `Gaussian2Scene` | [Gaussian2Scene: 3D Scene Representation Learning via Self-supervised Learning with 3D Gaussian Splatting](https://arxiv.org/abs/2506.08777) | arXiv 2025 | []() |
+
+### Incorporating Additional Sensors: With Radar
+
+> *Incorporating additional modalities into pre-training frameworks for representation learning.*
+
+
+| Model | Paper | Venue | GitHub |
+|:-:|:-|:-:|:-:|
+| `RadarContrast` | [Self-Supervised Contrastive Learning for Camera-to-Radar Knowledge Distillation](https://ieeexplore.ieee.org/abstract/document/10621525) | DCOSS-IoT 2024 | []() |
+| `AssociationNet` | [Radar camera fusion via representation learning in autonomous driving](https://openaccess.thecvf.com/content/CVPR2021W/MULA/html/Dong_Radar_Camera_Fusion_via_Representation_Learning_in_Autonomous_Driving_CVPRW_2021_paper.html?trk=public_post_comment-text) | CVPRW 2021 | []() |
+| `MVRAE` | [Multi-View Radar Autoencoder for Self-Supervised Automotive Radar Representation Learning](https://ieeexplore.ieee.org/abstract/document/10588463) | IV 2024 | []() |
+| `SSRLD` | [Self-supervised representation learning for the object detection of marine radar](https://dl.acm.org/doi/abs/10.1145/3532213.3532328) | ICCAI 2022 | []() |
+| `U-MLPNet` | [Learning Omni-Dimensional Spatio-Temporal Dependencies for Millimeter-Wave Radar Perception](https://www.mdpi.com/2072-4292/16/22/4256) | Remote Sens 2024 | []() |
+| `4D-ROLLS` | [4D-ROLLS: 4D Radar Occupancy Learning via LiDAR Supervision](https://arxiv.org/abs/2505.13905) | arXiv 2025 | [![GitHub](https://img.shields.io/github/stars/CLASS-Lab/4D-ROLLS)](https://github.com/CLASS-Lab/4D-ROLLS) |
+| `SS-RODNet` | [Pre-Training For mmWave Radar Object Detection Through Masked Image Modeling](https://ieeexplore.ieee.org/abstract/document/10424733) | SS-RODNet | []() |
+| `Radical` | [Bootstrapping autonomous driving radars with self-supervised learning](https://openaccess.thecvf.com/content/CVPR2024/html/Hao_Bootstrapping_Autonomous_Driving_Radars_with_Self-Supervised_Learning_CVPR_2024_paper.html) | CVPR 2024 | [![GitHub](https://img.shields.io/github/stars/yiduohao/Radical)](https://github.com/yiduohao/Radical) |
+| `RiCL` | [Leveraging Self-Supervised Instance Contrastive Learning for Radar Object Detection](https://arxiv.org/abs/2402.08427) | arXiv 2024 | []() |
+| `RSLM` | [Radar spectra-language model for automotive scene parsing](https://ieeexplore.ieee.org/abstract/document/10993898) | RADAR 2024 | []() |
+
+### Incorporating Additional Sensors: With Event Camera
+
+| Model | Paper | Venue | GitHub |
+|:-:|:-|:-:|:-:|
+| `ECDP` | [Event Camera Data Pre-training](https://openaccess.thecvf.com/content/ICCV2023/html/Yang_Event_Camera_Data_Pre-training_ICCV_2023_paper.html) | ICCV 2023 | [![GitHub](https://img.shields.io/github/stars/Yan98/Event-Camera-Data-Pre-training)](https://github.com/Yan98/Event-Camera-Data-Pre-training) |
+| `MEM` | [Masked Event Modeling: Self-Supervised Pretraining for Event Cameras](https://openaccess.thecvf.com/content/WACV2024/html/Klenk_Masked_Event_Modeling_Self-Supervised_Pretraining_for_Event_Cameras_WACV_2024_paper.html) | WACV 2024 | [![GitHub](https://img.shields.io/github/stars/tum-vision/mem)](https://github.com/tum-vision/mem) |
+| `DMM` | [Data-efficient event camera pre-training via disentangled masked modeling](https://arxiv.org/abs/2403.00416) | arXiv 2024 | []() |
+| `STP` | [Enhancing Event Camera Data Pretraining via Prompt-Tuning with Visual Models](https://openreview.net/pdf?id=XTBdPLhiRL) | - | []() |
+| `ECDDP` | [Event Camera Data Dense Pre-training](https://link.springer.com/chapter/10.1007/978-3-031-72775-7_17) | ECCV2024 | [![GitHub](https://img.shields.io/github/stars/Yan98/Event-Camera-Data-Dense-Pre-training)](https://github.com/Yan98/Event-Camera-Data-Dense-Pre-training/) |
+| `EventBind` | [Eventbind: Learning a unified representation to bind them all for event-based open-world understanding](https://link.springer.com/chapter/10.1007/978-3-031-72897-6_27) | ECCV2024 | [![GitHub](https://img.shields.io/github/stars/jiazhou-garland/EventBind)](https://github.com/jiazhou-garland/EventBind) |
+| `EventFly` | [EventFly: Event Camera Perception from Ground to the Sky](https://openaccess.thecvf.com/content/CVPR2025/html/Kong_EventFly_Event_Camera_Perception_from_Ground_to_the_Sky_CVPR_2025_paper.html) | CVPR 2025 | []() |
 
 -----
 
@@ -287,15 +323,49 @@ If you find this work helpful for your research, please kindly consider citing o
 |:-:|:-|:-:|:-:|
 | `CLIP2Scene` | [Towards Label-efficient 3D Scene Understanding by CLIP](https://arxiv.org/abs/2301.04926) | CVPR 2023 | [![GitHub](https://img.shields.io/github/stars/runnanchen/CLIP2Scene)](https://github.com/runnanchen/CLIP2Scene) |
 | `OpenScene` | [3D Scene Understanding with Open Vocabularies](https://arxiv.org/abs/2211.15654) | CVPR 2023 | [![GitHub](https://img.shields.io/github/stars/pengsongyou/openscene)](https://github.com/pengsongyou/openscene) |
+| `CLIP-ZSPCS` | [Transferring CLIP's Knowledge into Zero-Shot Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2312.07221) | MM 2023 | []() |
 | `CLIP-FO3D` | [Learning Free Open-world 3D Scene Representations from 2D Dense CLIP](https://arxiv.org/abs/2303.04748) | ICCVW 2023 | [](https://www.google.com/search?q=) |
 | `POP-3D` | [Open-Vocabulary 3D Occupancy Prediction from Images](https://arxiv.org/abs/2401.09413) | NeurIPS 2023 | [![GitHub](https://img.shields.io/github/stars/vobecant/POP3D)](https://github.com/vobecant/POP3D) |
 | `VLM2Scene` | [Self-Supervised Image-Text-LiDAR Learning with Foundation Models](https://ojs.aaai.org/index.php/AAAI/article/view/28121) | AAAI 2024 | [![GitHub](https://img.shields.io/github/stars/gbliao/VLM2Scene)](https://github.com/gbliao/VLM2Scene) |
+| `IntraCorr3D` | [Hierarchical intra-modal correlation learning for label-free 3d semantic segmentation](https://openaccess.thecvf.com/content/CVPR2024/html/Kang_Hierarchical_Intra-modal_Correlation_Learning_for_Label-free_3D_Semantic_Segmentation_CVPR_2024_paper.html) | CVPR 2024 | []() |
 | `SAL` | [Better Call SAL: Towards Learning to Segment Anything in Lidar](https://arxiv.org/abs/2403.13129) | ECCV 2024 | [![GitHub](https://img.shields.io/github/stars/nv-dvl/segment-anything-lidar)](https://github.com/nv-dvl/segment-anything-lidar) |
 | `Affinity3D` | [Propagating Instance-Level Semantic Affinity for Zero-Shot Semantic Seg](https://dl.acm.org/doi/10.1145/3664647.3680651) | ACM MM 2024 | [](https://www.google.com/search?q=) |
 | `UOV` | [3D Unsupervised Learning by Distilling 2D Open-Vocabulary Segmentation Models for Autonomous Driving](https://arxiv.org/html/2405.15286v1) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/sbysbysbys/UOV)](https://github.com/sbysbysbys/UOV) |
+| `OVO` | [OVO: Open-Vocabulary Occupancy](https://arxiv.org/abs/2305.16133) | arXiv 2023 | [![GitHub](https://img.shields.io/github/stars/dzcgaara/OVO-Open-Vocabulary-Occupancy)](https://github.com/dzcgaara/OVO-Open-Vocabulary-Occupancy) |
+| `LangOcc` | [Langocc: Self-supervised open vocabulary occupancy estimation via volume rendering](https://arxiv.org/abs/2407.17310) | 3DV 2025 | [![GitHub](https://img.shields.io/github/stars/boschresearch/LangOcc)](https://github.com/boschresearch/LangOcc) |
+| `VEON` | [VEON: Vocabulary-Enhanced Occupancy Prediction](https://link.springer.com/chapter/10.1007/978-3-031-72949-2_6) | ECCV 2024 | []() |
+| `LOcc` | [Language Driven Occupancy Prediction](https://openaccess.thecvf.com/content/ICCV2025/html/Yu_Language_Driven_Occupancy_Prediction_ICCV_2025_paper.html) | ICCV 2025 | [![GitHub](https://img.shields.io/github/stars/pkqbajng/locc)](https://github.com/pkqbajng/locc) |
+| `UP-VL` | [Unsupervised 3D Perception with 2D Vision-Language Distillation for Autonomous Driving](https://openaccess.thecvf.com/content/ICCV2023/html/Najibi_Unsupervised_3D_Perception_with_2D_Vision-Language_Distillation_for_Autonomous_Driving_ICCV_2023_paper.html) | ICCV 2023 | []() |
+| `ZPCS-MM` | [See more and know more: Zero-shot point cloud segmentation via multi-modal visual data](https://openaccess.thecvf.com/content/ICCV2023/html/Lu_See_More_and_Know_More_Zero-shot_Point_Cloud_Segmentation_via_ICCV_2023_paper.html) | ICCV 2023 | []() |
+| `CNS` | [Towards label-free scene understanding by vision foundation models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/ef6c94e9cf4d169298479ee2e230ee13-Abstract-Conference.html) | NeurIPS | [![GitHub](https://img.shields.io/github/stars/runnanchen/Label-Free-Scene-Understanding)](https://github.com/runnanchen/Label-Free-Scene-Understanding) |
+| `3DOV-VLD` | [3D Open-Vocabulary Panoptic Segmentation with 2D-3D Vision-Language Distillation](https://link.springer.com/chapter/10.1007/978-3-031-73661-2_2) | ECCV 2024 | []() |
+| `CLIP^2` | [CLIP2: Contrastive Language-Image-Point Pretraining from Real-World Point Cloud Data](https://arxiv.org/abs/2303.12417) | CVPR 2023 | []() |
+| `AdaCo` | [Adaco: Overcoming visual foundation model noise in 3d semantic segmentation via adaptive label correction]() | AAAI 2025 | []() |
+| `TT-Occ` | [TT-Occ: Test-Time Compute for Self-Supervised Occupancy via Spatio-Temporal Gaussian Splatting](https://arxiv.org/abs/2503.08485) | arXiv 2025 | []() |
+| `AutoOcc` | [AutoOcc: Automatic Open-Ended Semantic Occupancy Annotation via Vision-Language Guided Gaussian Splatting](https://arxiv.org/abs/2502.04981) | ICCV 2025 | []() |
+
 
 
 ### Unified World Representation for Action
+
+| Model | Paper | Venue | GitHub |
+|:-:|:-|:-:|:-:|
+| `OccWorld` | [OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving](https://link.springer.com/chapter/10.1007/978-3-031-72624-8_4) | ECCV 2024 | [![GitHub](https://img.shields.io/github/stars/wzzheng/OccWorld)](https://github.com/wzzheng/OccWorld) |
+| `GenAD` | [Generalized Predictive Model for Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Generalized_Predictive_Model_for_Autonomous_Driving_CVPR_2024_paper.html) | CVPR 2024 | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/DriveAGI)](https://github.com/OpenDriveLab/DriveAGI) |
+| `OccSora` | [OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving](https://arxiv.org/abs/2405.20337) | arXiv 2024 | [![GitHub](https://img.shields.io/github/stars/wzzheng/OccSora)](https://github.com/wzzheng/OccSora) |
+| `OccLLaMA` | [OccLLaMA: An Occupancy-Language-Action Generative World Model for Autonomous Driving](https://arxiv.org/abs/2409.03272) | arXiv 2024 | []() |
+| `OccVAR` | [OccVAR: Scalable 4D Occupancy Prediction via Next-Scale Prediction](https://openreview.net/forum?id=X2HnTFsFm8) | - | []() |
+| `RenderWorld` | [Renderworld: World Model with Self-Supervised 3D Label](https://ieeexplore.ieee.org/abstract/document/11127609) | ICRA 2025 | []() |
+| `Drive-OccWorld` | [Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving](https://ojs.aaai.org/index.php/AAAI/article/view/33010) | AAAI 2025 | [![GitHub](https://img.shields.io/github/stars/yuyang-cloud/Drive-OccWorld)](https://github.com/yuyang-cloud/Drive-OccWorld) |
+| `LAW` | [Enhancing End-to-End Autonomous Driving with Latent World Model](https://arxiv.org/abs/2406.08481) | ICLR 2025 | [![GitHub](https://img.shields.io/github/stars/BraveGroup/LAW)](https://github.com/BraveGroup/LAW) |
+| `FSF-Net` | [FSF-Net: Enhance 4D occupancy forecasting with coarse BEV scene flow for autonomous driving](https://www.sciencedirect.com/science/article/abs/pii/S0031320325010337) | PR 2025 | []() |
+| `DriveX` | [DriveX: Omni Scene Modeling for Learning Generalizable World Knowledge in Autonomous Driving](https://arxiv.org/abs/2505.19239) | arXiv 2025 | []() |
+| `SPOT` | [SPOT: Scalable 3D Pre-training via Occupancy Prediction for Autonomous Driving](https://arxiv.org/abs/2309.10527) | TPAMI 2025 | [![GitHub](https://img.shields.io/github/stars/PJLab-ADG/3DTrans)](https://github.com/PJLab-ADG/3DTrans) |
+| `WoTE` | [End-to-End Driving with Online Trajectory Evaluation via BEV World Model](https://arxiv.org/pdf/2504.01941) | ICCV 2025 | [![GitHub](https://img.shields.io/github/stars/liyingyanUCAS/WoTE)](https://github.com/liyingyanUCAS/WoTE) |
+| `FASTopoWM` | [FASTopoWM: Fast-Slow Lane Segment Topology Reasoning with Latent World Models](https://arxiv.org/abs/2507.23325) | arXiv 2025 | [![GitHub](https://img.shields.io/github/stars/YimingYang23/FASTopoWM)](https://github.com/YimingYang23/FASTopoWM) |
+| `OccTens` | [OccTENS: 3D Occupancy World Model via Temporal Next-Scale Prediction](https://arxiv.org/abs/2509.03887) | arXiv 2025 | []() |
+| `OccVLA` | [Occvla: Vision-language-action model with implicit 3d occupancy supervision](https://arxiv.org/abs/2509.05578) | arXIv 2025 | []() |
+| `World4Drive` | [World4Drive: End-to-End Autonomous Driving via Intention-aware Physical Latent World Model](https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_World4Drive_End-to-End_Autonomous_Driving_via_Intention-aware_Physical_Latent_World_Model_ICCV_2025_paper.html) | ICCV 2025 | [![GitHub](https://img.shields.io/github/stars/ucaszyp/World4Drive)](https://github.com/ucaszyp/World4Drive) |
 
 -----
 
