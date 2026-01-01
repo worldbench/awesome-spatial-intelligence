@@ -21,7 +21,7 @@ In this work, we establish a systematic taxonomy for the field, unifying termino
 * 🔄 **Multi-Modality Pre-Training**<br>*Bridging the Semantic-Geometric Gap.* Leverages cross-modal synergy to fuse heterogeneous sensor data. This category includes **LiDAR-Centric** (distilling visual semantics into geometry), **Camera-Centric** (injecting geometric priors into vision), and **Unified** frameworks that jointly learn modality-agnostic representations.
 * 🌍 **Open-World Perception and Planning**<br>*The Frontier of Embodied Autonomy.* Represents the evolution from passive perception to active decision-making. This paradigm encompasses **Generative World Models** (e.g., video/occupancy generation), **Embodied Vision-Language-Action (VLA)** models, and systems capable of **Open-World** reasoning.
 
-📄 **[Paper Link]()**
+📄 **[Paper Link](https://arxiv.org/abs/2512.24385)**
 
 
 ---
@@ -34,8 +34,8 @@ If you find this work helpful for your research, please kindly consider citing o
 @article{wang2026forging,
     title   = {Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems},
     author  = {Song Wang and Lingdong Kong and Xiaolu Liu and Hao Shi and Wentong Li and Jianke Zhu and Steven C. H. Hoi},
-    journal = {arXiv preprint arXiv:2601.xxxxx},
-    year    = {2026}
+    journal = {arXiv preprint arXiv:2512.24385},
+    year    = {2025}
 }
 ````
 
