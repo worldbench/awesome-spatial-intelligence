@@ -66,7 +66,7 @@ If you find this work helpful for your research, please kindly consider citing o
 ### Vehicle-Based Datasets
 
 
-| Dataset | Venue | Sensor | Task | Download |
+| Dataset | Venue | Sensor | Task | Website |
 | :-: | :-: | :-: | :-: | :-: |
 | `KITTI` | [CVPR'12](https://www.cvlibs.net/publications/Geiger2012CVPR.pdf) | 2 Cam(RGB), 2 Cam(Gray), 1 LiDAR(64) | 3D Det, Stereo, Optical Flow, SLAM | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.cvlibs.net/datasets/kitti/index.php) |
 | `ApolloScape` | [TPAMI'19](https://arxiv.org/pdf/1803.06184) | 2 Cam, 2 LiDAR | 3D Det, HD Map | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://apolloscape.auto/) |
@@ -93,7 +93,7 @@ If you find this work helpful for your research, please kindly consider citing o
 
 ### Drone-Based Datasets
 
-| Dataset | Venue | Sensor | Task | Download |
+| Dataset | Venue | Sensor | Task | Website |
 | :-: | :-: | :-: | :-: | :-: |
 | `Campus` | [ECCV'16](https://link.springer.com/chapter/10.1007/978-3-319-46484-8_33) | 1 Cam |Target Forecasting/ Tracking | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](http://cvgl.stanford.edu/projects/uav_data/) |
 | `UAV123` | [ECCV'16](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_27) | 1 Cam | UAV Trackong| [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://cemse.kaust.edu.sa/ivul/uav123) |
