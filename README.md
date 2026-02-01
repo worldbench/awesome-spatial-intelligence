@@ -18,7 +18,7 @@ This repository serves as the official resource collection for the paper **"Forg
 
 In this work, we establish a systematic taxonomy for the field, unifying terminology, scope, and evaluation benchmarks. We organize existing methodologies into three complementary paradigms based on information flow and abstraction level:
 
-* 📷 **Single-Modality Pre-Training**<br>*The Bedrock of Perception.* Focuses on extracting foundational features from individual sensor streams (Camera or LiDAR) via self-supervised learning techniques, such as Contrastive Learning, Masked Modeling, and Forecasting. This paradigm establishes the fundamental representations for sensor-specific tasks.
+* 📷 **Single-Modality Pre-Training**<br>*The Bedrock of Perception.* Focuses on extracting foundational features from individual sensor streams (Camera or LiDAR) via self-supervised learning techniques, such as Contrastive Learning, Masked Modeling, and Future Forecasting. This paradigm establishes the fundamental representations for sensor-specific tasks.
 * 🔄 **Multi-Modality Pre-Training**<br>*Bridging the Semantic-Geometric Gap.* Leverages cross-modal synergy to fuse heterogeneous sensor data. This category includes **LiDAR-Centric** (distilling visual semantics into geometry), **Camera-Centric** (injecting geometric priors into vision), and **Unified** frameworks that jointly learn modality-agnostic representations.
 * 🌍 **Open-World Perception and Planning**<br>*The Frontier of Embodied Autonomy.* Represents the evolution from passive perception to active decision-making. This paradigm encompasses **Generative World Models** (e.g., video/occupancy generation), **Embodied Vision-Language-Action (VLA)** models, and systems capable of **Open-World** reasoning.
 
