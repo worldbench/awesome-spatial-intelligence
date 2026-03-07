@@ -367,7 +367,7 @@ If you find this work helpful for your research, please kindly consider citing o
 | `OccTens` | [OccTENS: 3D Occupancy World Model via Temporal Next-Scale Prediction](https://arxiv.org/abs/2509.03887) | arXiv 2025 | []() |
 | `OccVLA` | [Occvla: Vision-language-action model with implicit 3d occupancy supervision](https://arxiv.org/abs/2509.05578) | arXIv 2025 | []() |
 | `World4Drive` | [World4Drive: End-to-End Autonomous Driving via Intention-aware Physical Latent World Model](https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_World4Drive_End-to-End_Autonomous_Driving_via_Intention-aware_Physical_Latent_World_Model_ICCV_2025_paper.html) | ICCV 2025 | [![GitHub](https://img.shields.io/github/stars/ucaszyp/World4Drive)](https://github.com/ucaszyp/World4Drive) |
-| `DriveWorld-VLA` | [DriveWorld-VLA: Unified Latent-Space World Modeling with Vision–Language–Action for Autonomous Driving](https://arxiv.org/abs/2602.06521) | [![GitHub](https://img.shields.io/github/stars/liulin815/DriveWorld-VLA)](https://github.com/liulin815/DriveWorld-VLA) |
+| `DriveWorld-VLA` | [DriveWorld-VLA: Unified Latent-Space World Modeling with Vision–Language–Action for Autonomous Driving](https://arxiv.org/abs/2602.06521) | arXIv 2026 | [![GitHub](https://img.shields.io/github/stars/liulin815/DriveWorld-VLA)](https://github.com/liulin815/DriveWorld-VLA) |
 
 -----
 
